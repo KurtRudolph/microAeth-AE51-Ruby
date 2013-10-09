@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.requirements << 'a microAeth model AE51'
 
   s.add_dependency 'serialport'
+  s.add_dependency 'timeout'
   
 
   s.files = Dir.glob 'lib/**/*.rb'
