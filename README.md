@@ -5,7 +5,7 @@ Ruby API for AethLabs microAeth&reg; model AE51
 ### Description
 
 This Gem provides and easy to use API for sending
-and receiving commands for the microAeth model AE51.
+and receiving data and commands for the microAeth model AE51.
 
 This library is not complete but encompasses the most
 common commands for interfacing with the device.
