@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $LOAD_PATH.push File.expand_path('../lib', __FILE__)
-require 'micro_aeth-AE51/version'
+require 'micro_aeth-ae51/version'
 
 Gem::Specification.new do |s|
-  s.name        = 'micro_aeth-ae51'
+  s.name        = 'micro_aeth-ae51-ruby'
   s.version     = MicroAethAE51::VERSION
   s.authors     = ['Kurt R. Rudolph']
   s.email       = ['kurt@rudycomputing.io']
@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.requirements << 'a microAeth model AE51'
 
   s.add_dependency 'serialport'
-  s.add_dependency 'timeout'
   
 
   s.files = Dir.glob 'lib/**/*.rb'

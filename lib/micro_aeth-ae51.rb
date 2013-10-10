@@ -1,7 +1,7 @@
 require 'serialport'
 require 'timeout'
 
-module MicroAeth
+module MicroAethAE51
   class ::String
     ###
     # @return the first charater in the string as an integer
